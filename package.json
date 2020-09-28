@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "html-validate": "html-validate index.html",
+    "auto-prefixer": "autoprefixer-cli -o css/style.prefixed.css css/style.css"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,8 @@
   },
   "homepage": "https://github.com/kazik545/learning-git-2#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.12"
+    "browser-sync": "^2.26.12",
+    "html-validate": "^3.3.0",
+    "autoprefixer-cli": "^1.0.0"
   }
 }
